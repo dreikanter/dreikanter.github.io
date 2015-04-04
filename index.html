@@ -5,8 +5,8 @@ title: Home
 
 <ul class="posts-list">
   {% for post in site.posts %}
-  <li>
-    <big><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></big><br>
+  <li class="posts-list__item">
+    <a href="{{ post.url }}" class="post-title">{{ post.title }}</a><br>
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date text-muted">{{ post.date | date_to_string }}</time>
   </li>
   {% endfor %}

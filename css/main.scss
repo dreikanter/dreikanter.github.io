@@ -40,10 +40,14 @@ body {
 .posts-list {
   list-style-type: none;
   padding-left: 0;
+}
 
-  li {
-    margin-bottom: 20px;
-  }
+.posts-list__item {
+  margin-bottom: 20px;
+}
+
+.posts-list__item > .post-title {
+  font-size: 20px;
 }
 
 .site-header {
