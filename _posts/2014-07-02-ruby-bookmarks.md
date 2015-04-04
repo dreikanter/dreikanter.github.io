@@ -1,7 +1,8 @@
 ---
 title: Ruby Bookmarks
-created: 2014/07/02 16:17:09
+date: 2014-07-02 16:17:09
 tags: ruby, списки, github
+layout: post
 ---
 
 Несколько дней назад, вдохновившись [примером @dypsilon](https://github.com/dypsilon/frontend-dev-bookmarks), я решил сделать свою [подборку ссылок](https://github.com/dreikanter/ruby-bookmarks) на тему Ruby и Ruby on Rails. Эта подборка уже существовала, но была разрозненной и не полностью открытой. Она состояла из закладок на pinboard.in, книг в вишлисте на амазоне, звёздочек на гитхабе, и заметок ещё в нескольких менее понятных местах.

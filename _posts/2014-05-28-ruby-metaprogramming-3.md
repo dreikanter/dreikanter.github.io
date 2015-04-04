@@ -1,7 +1,8 @@
 ---
 title: "Ruby Metaprogramming: Dynamic Code"
-created: 2014/05/28 21:57:29
+date: 2014-05-28 21:57:29
 tags: ruby, конспекты
+layout: post
 ---
 
 Продолжение [конспекта](/2014/05/26/ruby-metaprogramming-1.html) по курсу Дэйва Томаса [Ruby Object Model and Metaprogramming](http://pragprog.com/screencasts/v-dtrubyom/the-ruby-object-model-and-metaprogramming).

@@ -3,7 +3,7 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            DRKNTR
+title: DRKNTR
 tagline:
 url:              http://dreikanter.org
 paginate:         1

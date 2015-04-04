@@ -1,7 +1,8 @@
 ---
 title: Sublime Text layout manipulation hotkeys
-created: 2013/07/24 15:44:55
+date: 2013-07-24 15:44:55
 tags: sublime, hotkeys, tips
+layout: post
 ---
 
 - Layout modes:

@@ -3,10 +3,9 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+$head-font-family: 'PT Serif', Georgia, serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -27,26 +26,33 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+body {
+  color: $text-color;
+  background-color: $background-color;
+  font-family: $base-font-family;
+  padding: 50px;
 }
 
+.posts-list {
+  list-style-type: none;
+  padding-left: 0;
 
+  li {
+    margin-bottom: 20px;
+  }
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+.site-header {
+  margin-bottom: 40px;
+}
+
+.site-header__title a {
+  color: $text-color;
+  font-weight: bold;
+}
+
+.line-numbers > a,
+.line-numbers > strong > a {
+  color: #ddd;
+  padding-right: 20px;
+}

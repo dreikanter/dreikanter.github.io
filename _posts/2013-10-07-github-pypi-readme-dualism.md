@@ -1,7 +1,8 @@
 ---
 title: Readme markup dualism
-created: 2013/10/07 18:54:26
+date: 2013-10-07 18:54:26
 tags: github, python, english
+layout: post
 ---
 
 Let's say we have a project hosted on GitHub. And this project is a python package supposed to be deployed on PyPI, so it includes `setup.py` defining all required metadata such as author name, license type, classifiers, and so on.
@@ -14,7 +15,7 @@ But what if your readme file uses markdown instead of reStructuredText—the onl
 
 The solution is to convert readme markup on the fly, right before using it:
 
-``` python
+~~~ python
 import subprocess as sp
 
 def get_desc(file_name):
@@ -28,7 +29,7 @@ setup(
     long_description=get_desc('README.md'),
     # other parameters are skipped
 )
-```
+~~~
 
 For sure this is a very simplified implementation, introducing a "hidden" dependency—pandoc tool. It would be nice to handle a situation when it's not available, and notify the user by a readable message instead of exception stack trace. But the purpose of this code is to illustrate the idea.
 

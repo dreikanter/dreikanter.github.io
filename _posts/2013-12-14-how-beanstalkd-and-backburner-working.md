@@ -1,7 +1,8 @@
 ---
 title: Простой пример очереди задач
-created: 2013/12/14 23:04:35
+date: 2013-12-14 23:04:35
 tags: distributed everything, ruby, как всё работает
+layout: post
 ---
 
 Жил-был REST сервис, который принимал запросы и выполнял задачи. И всё бы ничего, но исполнение задач занимало относительно много времени, из-за чего нетерпеливые клиенты хмурились и отваливались по таймауту. Для того чтобы облегчить сервису работу, было решено убрать из него непосредственное исполнение задач в фоновые процессы, а сам сервис использовать только для того, чтобы ставить запросы в очередь.
@@ -18,7 +19,7 @@ tags: distributed everything, ruby, как всё работает
 
 Конфигурация backburner, общая для генератора задач и воркера.
 
-```ruby
+~~~ruby
 require 'backburner'
 
 Backburner.configure do |config|
@@ -27,13 +28,13 @@ Backburner.configure do |config|
   config.on_error         = lambda { |e| logger.error e }
   config.primary_queue    = 'frank-jobs'
 end
-```
+~~~
 
 ### `lib/job.rb`
 
 Класс, имплементируюший задачу, — некую процедуру, исполнение которой занимает продолжительное время.
 
-```ruby
+~~~ruby
 class UberJob
   include Backburner::Queue
 
@@ -44,13 +45,13 @@ class UberJob
     end
   end
 end
-```
+~~~
 
 ### `prod.rb`
 
 Скрипт, добавляющий новые задачи в очередь исполнения.
 
-```ruby
+~~~ruby
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), 'lib')
 
 require 'backburner'
@@ -60,13 +61,13 @@ require 'job'
 job_id = Random.rand(100)
 Backburner.enqueue UberJob, job_id
 puts "Job #{job_id} enqeueud"
-```
+~~~
 
 ### `worker.rb`
 
 Фоновый процесс, который последовательно исполняет задачи.
 
-```ruby
+~~~ruby
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), 'lib')
 
 require 'backburner'
@@ -74,7 +75,7 @@ require 'init'
 require 'job'
 
 Backburner.work
-```
+~~~
 
 ### Запускаем!
 

@@ -1,7 +1,8 @@
 ---
 title: Windows Dysfunctionality Index
-created: 2014/05/03 16:52:22
+date: 2014-05-03 16:52:22
 tags: tech stuff, windows
+layout: post
 ---
 
 Помимо [WEI](http://en.wikipedia.org/wiki/Windows_System_Assessment_Tool), в Windows должен быть ещё один важный показатель — коэффициент кривизны функционирования Всего, или Windows Dysfunctionality Index. После установки он равен нулю, но по мере того как в системе что-то меняется, или просто время течёт своим чередом, величина растёт.

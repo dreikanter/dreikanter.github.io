@@ -1,7 +1,8 @@
 ---
 title: История меня
-created: 2014/04/19 00:23:42
+date: 2014-04-19 00:23:42
 tags: quotes, говорит капитан
+layout: post
 ---
 
 Сегодня сети притащили [цитату из блога](http://petrosian.ru/2014/04/novoe-intervyu-sem-let-spustya/) Армена Петросяна:

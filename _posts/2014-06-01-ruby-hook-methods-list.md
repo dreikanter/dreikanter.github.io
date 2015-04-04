@@ -1,7 +1,8 @@
 ---
 title: Ruby Hook Methods List
-created: 2014/06/01 13:00:14
+date: 2014-06-01 13:00:14
 tags: ruby
+layout: post
 ---
 
 Method-related hooks:

@@ -1,7 +1,8 @@
 ---
 title: "Ruby Metaprogramming: Objects and Classes"
-created: 2014/05/26 22:38:21
+date: 2014-05-26 22:38:21
 tags: ruby, конспекты
+layout: post
 ---
 
 Этот пост — первая часть конспекта по курсу Дэйва Томаса [The Ruby Object Model and Metaprogramming](http://pragprog.com/screencasts/v-dtrubyom/the-ruby-object-model-and-metaprogramming), который я сейчас слушаю. Конспект получается довольно большой, — в текстовом файле с заметками и примерами кода накопилось больше 800 строк, а это только половина материала. Поэтому буду выкладывать его фрагментами, по одному эпизоду на пост.

@@ -1,7 +1,8 @@
 ---
 title: A Beginner's Guide to Irrational Behavior
-created: 2014/04/27 22:11:03
+date: 2014-04-27 22:11:03
 tags: конспекты, coursera
+layout: post
 ---
 
 Это мой конспект по курсу лекций Дэна Ариэли по поведенческой экономике. Публикуется, естественно, без претензий на полноту, литературное качество изложения и объективность ответов на вопросы :)
@@ -116,11 +117,11 @@ Strategic unconscious consumption — сознательный подход к �
 Неотправленный пост на форум:
 
 > Spoiler alert: please don't read before watching the video.
-
+>
 > I feel puzzled after watching "The dictator game". I don't actually get the idea of what was called generosity in this video. Generosity is a habit to help people without expecting anything back. But helping people who don't actually need you help is not a help, but a useless action.
-
+>
 > But giving away money to a person you don't (and never will) know, is not actually a help.
-
+>
 > In my opinion the Dictator's decision driver was something else than generosity, or not only generosity. Probably some unformulated supposition that the experiment has some implicit conditions.
 
 ...Написал я и решил не начинать обсуждение. Потому что generosity — это voluntary helping to people. А help — это содействие, релевантное задачам индивида. Деньги же — это генерализованный хелп, который ультимативно-релевантен «задачам» кого-угодно.

@@ -1,29 +1,30 @@
 ---
 title: Monosnap + Amazon S3
-created: 2014/03/28 12:33:25
+date: 2014-03-28 12:33:25
 tags: aws, tools
+layout: post
 ---
 
 Инструкци про то, как настроить [Monosnap](http://monosnap.com) для автоматического расшаривания скриншотов через [Amazon S3](http://aws.amazon.com/s3).
 
 **Создаём бакет,** который будет виден из веба. Для этого отмечаем в его свойствах Enable website hosting, определяем Index Document значением `index.html`, и задаём permissions:
 
-``` json
+~~~ json
 {
-	"Version": "2008-10-17",
-	"Statement": [
-		{
-			"Sid": "PublicReadGetObject",
-			"Effect": "Allow",
-			"Principal": {
-				"AWS": "*"
-			},
-			"Action": "s3:GetObject",
-			"Resource": "arn:aws:s3:::BUCKET_NAME/*"
-		}
-	]
+  "Version": "2008-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::BUCKET_NAME/*"
+    }
+  ]
 }
-```
+~~~
 
 Здесь и далее предполагается, что `BUCKET_NAME` — имя нашего бакета.
 
@@ -43,7 +44,7 @@ tags: aws, tools
 
 **Определяем права доступа к бакету.** В свойствах созданного пользователя открываем Permissions → Attach User Policy → Set Permissions → Custom Policy, и копируем туда это:
 
-``` json
+~~~ json
 {
   "Statement": [
     {
@@ -81,7 +82,7 @@ tags: aws, tools
     }
   ]
 }
-```
+~~~
 
 Скопировать готовый код гораздо проще, чем отмечать нужные чекбоксы в огромном списке.
 

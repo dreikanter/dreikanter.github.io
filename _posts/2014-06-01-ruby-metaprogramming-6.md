@@ -1,7 +1,8 @@
 ---
 title: "Ruby Metaprogramming: Some Hook Methods"
-created: 2014/06/01 12:02:30
+date: 2014-06-01 12:02:30
 tags: ruby, конспекты
+layout: post
 ---
 
 Продолжение [конспекта](/2014/05/26/ruby-metaprogramming-1.html) по курсу Дэйва Томаса [Ruby Object Model and Metaprogramming](http://pragprog.com/screencasts/v-dtrubyom/the-ruby-object-model-and-metaprogramming).
@@ -160,11 +161,11 @@ puts Fred  # nil
 
 Just in case:
 
->	A **Ruby constant** is like a variable, except that its value is supposed to remain constant for the duration of the program. The Ruby interpreter does not actually enforce the constancy of constants, but it does issue a warning if a program changes the value of a constant (as shown in this trivial example).
-
->	Lexically, the names of constants look like the names of local variables, except that they begin with a capital letter. By convention, most constants are written in all uppercase with underscores to separate words, `LIKE_THIS`. Ruby class and module names are also constants, but they are conventionally written using initial capital letters and camel case, `LikeThis`.
-
->	— Ruby Constants, [rubylearning.com](http://rubylearning.com/satishtalim/ruby_constants.html)
+> A **Ruby constant** is like a variable, except that its value is supposed to remain constant for the duration of the program. The Ruby interpreter does not actually enforce the constancy of constants, but it does issue a warning if a program changes the value of a constant (as shown in this trivial example).
+>
+> Lexically, the names of constants look like the names of local variables, except that they begin with a capital letter. By convention, most constants are written in all uppercase with underscores to separate words, `LIKE_THIS`. Ruby class and module names are also constants, but they are conventionally written using initial capital letters and camel case, `LikeThis`.
+>
+> — Ruby Constants, [rubylearning.com](http://rubylearning.com/satishtalim/ruby_constants.html)
 
 Отлов не всех неопределённых констант, а только тех, котрые соответствют заданному условию:
 

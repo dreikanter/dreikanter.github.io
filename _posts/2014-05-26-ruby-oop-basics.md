@@ -1,7 +1,8 @@
 ---
 title: Основные средства ООП в Ruby
-created: 2014/05/26 13:53:47
+date: 2014-05-26 13:53:47
 tags: конспекты, ruby
+layout: post
 ---
 
 Конспект четырёх первых лекций курса [Object-Oriented Design and Refactoring Patterns in Ruby](http://courses.tutsplus.com/courses/object-oriented-design-and-refactoring-patterns-in-ruby), которые я просмотрел с целью освежить в памяти соответствующие умения.

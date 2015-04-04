@@ -1,11 +1,13 @@
 ---
 title: "Ruby Metaprogramming: instance_eval and class_eval"
-created: 2014/05/28 22:32:04
+date: 2014-05-28 22:32:04
 tags: ruby, конспекты
+layout: post
 ---
 
 Продолжение [конспекта](/2014/05/26/ruby-metaprogramming-1.html) по курсу Дэйва Томаса [Ruby Object Model and Metaprogramming](http://pragprog.com/screencasts/v-dtrubyom/the-ruby-object-model-and-metaprogramming).
 
+layout: post
 ---
 
 Оглавление конспекта:
@@ -18,6 +20,7 @@ tags: ruby, конспекты
 - Episode 6: [Some Hook Methods](/2014/06/01/ruby-metaprogramming-6.html)
 - Episode 7: [More Hook Methods](/2014/06/01/ruby-metaprogramming-7.html)
 
+layout: post
 ---
 
 Пример использования `eval`:
