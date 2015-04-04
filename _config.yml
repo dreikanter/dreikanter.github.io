@@ -1,14 +1,14 @@
 # Permalinks
-permalink:        pretty
+permalink: pretty
 relative_permalinks: true
 
 # Setup
 title: DRKNTR
 tagline:
-url:              http://dreikanter.org
-paginate:         1
-baseurl:          /
+url: http://dreikanter.org
+paginate: 1
+baseurl: /
 author:
-  name:           Alex Musayev
-  url:            https://twitter.com/dreikanter
-  email:          alex.musayev@gmail.com
+  name: Alex Musayev
+  url: https://twitter.com/dreikanter
+  email: alex.musayev@gmail.com
