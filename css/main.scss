@@ -33,6 +33,10 @@ body {
   padding: 50px;
 }
 
+.content-container {
+  max-width: 970px;
+}
+
 .posts-list {
   list-style-type: none;
   padding-left: 0;
@@ -70,17 +74,14 @@ body {
 }
 
 .footer {
+  color: #999;
   margin-top: 50px;
 }
 
-.footer,
 .footer > a,
 .footer > a:visited,
 .footer > a:active,
 .footer > a:focus {
   color: #999;
-}
-
-.footer > a {
   text-decoration: underline;
 }
