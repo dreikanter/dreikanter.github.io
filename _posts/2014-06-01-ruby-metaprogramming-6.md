@@ -11,13 +11,13 @@ layout: post
 
 Оглавление конспекта:
 
-- Episode 1: [Objects and Classes](/2014/05/26/ruby-metaprogramming-1.html)
-- Episode 2: [Sharing Behavior](/2014/05/26/ruby-metaprogramming-2.html)
-- Episode 3: [Dynamic Code](/2014/05/28/ruby-metaprogramming-3.html)
-- Episode 4: [instance_eval and class_eval](/2014/05/28/ruby-metaprogramming-4.html)
-- Episode 5: [Nine Examples](/2014/05/28/ruby-metaprogramming-5.html)
+- Episode 1: [Objects and Classes](/2014/05/26/ruby-metaprogramming-1)
+- Episode 2: [Sharing Behavior](/2014/05/26/ruby-metaprogramming-2)
+- Episode 3: [Dynamic Code](/2014/05/28/ruby-metaprogramming-3)
+- Episode 4: [instance_eval and class_eval](/2014/05/28/ruby-metaprogramming-4)
+- Episode 5: [Nine Examples](/2014/05/28/ruby-metaprogramming-5)
 - **Episode 6: Some Hook Methods**
-- Episode 7: [More Hook Methods](/2014/06/01/ruby-metaprogramming-7.html)
+- Episode 7: [More Hook Methods](/2014/06/01/ruby-metaprogramming-7)
 
 ---
 
