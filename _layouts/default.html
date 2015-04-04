@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
-    <i class="fa fa-star"></i>
     {% if page.title == "Home" %}
       {{ site.title }}
     {% else %}
@@ -28,7 +27,10 @@
   <div class="container content-container">
     <header class="site-header">
       <h3 class="site-header__title">
-        <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
+        <a href="{{ site.baseurl }}" title="Home">
+          <i class="fa fa-star"></i>
+          {{ site.title }}
+        </a>
         {% if site.tagline %}
           <small>{{ site.tagline }}</small>
         {% endif %}
