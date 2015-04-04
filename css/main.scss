@@ -68,3 +68,19 @@ body {
   font-size: 18px;
   margin-bottom: 30px;
 }
+
+.footer {
+  margin-top: 50px;
+}
+
+.footer,
+.footer > a,
+.footer > a:visited,
+.footer > a:active,
+.footer > a:focus {
+  color: #999;
+}
+
+.footer > a {
+  text-decoration: underline;
+}
